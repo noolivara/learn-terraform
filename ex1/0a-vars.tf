@@ -12,7 +12,7 @@ variable "sample_list"{
 
 
 variable "sample_dict"{
-  deafult = {
+  default = {
     number1 = 100
     string1 = "hellow"
     number2 = 123
