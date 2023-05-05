@@ -21,6 +21,8 @@ variable "sample_dict"{
   }
 }
 
-variable "env"{}
+variable "env"{
+  default = dev
+}
 
 
