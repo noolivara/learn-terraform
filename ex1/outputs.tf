@@ -17,3 +17,8 @@ output "sample_dict"{
 output "sample_dict1"{
   value = var.sample_dict["boolean"]
 }
+
+output "sample_env"{
+  value = var.env
+}
+

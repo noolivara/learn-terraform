@@ -11,6 +11,7 @@ variable "sample_list"{
 }
 
 
+
 variable "sample_dict"{
   default = {
     number1 = 100
