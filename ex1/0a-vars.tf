@@ -22,7 +22,6 @@ variable "sample_dict"{
 }
 
 variable "env"{
-  default = "dev"
 
 }
 
