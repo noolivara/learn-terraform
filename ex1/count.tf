@@ -1,3 +1,10 @@
 resource "null_resource" "null"{
-  count = 10
+  count = length(var.testcount)
 }
+
+
+
+variable "testcount" {
+  default = ["test1", "test2", "test3"]
+}
+
