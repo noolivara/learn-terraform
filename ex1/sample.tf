@@ -12,7 +12,7 @@ data "aws_security_group" "selected" {
 resource "aws_instance" "web" {
   ami           = data.aws_ami.centos.image_id
   instance_type = "t3.micro"
-  vpc_security_group_ids = data.aws_security_group.selected.id
+  vpc_security_group_ids = [data.aws_security_group.selected.id]
 
 
   tags = {
