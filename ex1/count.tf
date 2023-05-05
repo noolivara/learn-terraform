@@ -3,7 +3,6 @@ resource "null_resource" "null"{
 }
 
 
-
 variable "testcount" {
   default = ["test1", "test2", "test3"]
 }
